@@ -1,0 +1,8 @@
+#include <math.h>
+#include <stdio.h>
+#include <stdlib.h>
+
+theta_r = (atan2((yg - y) , (xg - x))) / PI * 180;
+w = K_psi * ( theta_r - theta );
+left = v - 0.5 * w;
+right = v + 0.5 * w;
